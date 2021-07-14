@@ -4,6 +4,7 @@
   "description": "This app will help the Arab people romanize (not translate) their names.",
   "main": "index.js",
   "scripts": {
+    "start": "npx webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,12 @@
     "arabic-name-to-en": "^1.0.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.7",
+    "style-loader": "^3.1.0",
     "webpack": "^5.44.0",
     "webpack-cli": "^4.7.2"
   }
